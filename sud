@@ -1,0 +1,8 @@
+# First of all, if you are using Amazon Web Services, EC2 : you can create and link the instance. 
+# After opening it
+
+sudo apt-get update
+sudo apt-get install docker.io -y
+sudo systemctl start docker
+sudo docker run hello-world
+docker --version        #this particular line is used to check what version of docker is possessed by the system. It also indirectly works to know if docker is installed in our system or not.  
